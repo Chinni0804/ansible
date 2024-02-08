@@ -2,12 +2,12 @@
   hosts: localhost
   tasks: 
   - name: PLAY-1 and TASK-1
-    ansible.bultin.debug:
+    ansible.builtin.debug:
       msg: "Hellow from PLAY-1 and TASK-1"
 
 - name: PLAT-2
   hosts: localhost
   tasks: 
   - name: PLAY-2 and TASK-2
-    ansible.bultin.debug:
+    ansible.builtin.debug:
       msg: "Hellow from PLAY-2 and TASK-2"
