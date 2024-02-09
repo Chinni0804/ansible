@@ -3,7 +3,7 @@
   tasks:
   - name: print persons
     ansible.builtin.debug:
-      msgL "hello {{item}}" # item is default value for loops
+      msg: "hello {{item}}" # item is default value for loops
     loop:
     - r
     - f
