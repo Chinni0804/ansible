@@ -1,0 +1,10 @@
+- name: loops
+  hosts: localhost
+  tasks:
+  - name: print persons
+    ansible.builtin.debug
+      msgL "hello {{item}}" # item is default value for loops
+    loop:
+    - r
+    - f
+    - g
