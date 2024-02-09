@@ -10,3 +10,7 @@
   - name: print variable value
     ansible.builtin.debug:
       msg: "user is {{user}}"
+
+  - name: print exit status or return code
+    ansible.builtin.debug:
+      msg: "user is {{user.rc}}"
