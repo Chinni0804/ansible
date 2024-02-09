@@ -9,5 +9,5 @@
     private: true # user cant see what they enter
   tasks:
   - name: print and check the values
-    aansible.builtin.debug:
+    ansible.builtin.debug:
       msg: "username is {{USERNAME}}, Password is: {{PASSWORD}}"
